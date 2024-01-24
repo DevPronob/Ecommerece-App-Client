@@ -8,10 +8,12 @@ import PopularProductContainer from '../PopularProductContainer/PopularProductCo
 import BannerContainer2 from '../BannerContainer2/BannerContainer2';
 import BestSellerContainer from '../BestProductContainer/BestSellerContainer';
 import ReviewContainer from '../ReviewContainer/ReviewContainer';
+import Sidebar from '../../../components/Sidebar';
 
 const Home = () => {
     return (
         <div className=''>
+            {/* <Sidebar></Sidebar> */}
             <HomeSlider></HomeSlider>
             <HotDealContainer></HotDealContainer>
             <BannerContainer></BannerContainer>
@@ -20,6 +22,7 @@ const Home = () => {
             <PopularProductContainer></PopularProductContainer>
             <BannerContainer2></BannerContainer2>
             <ReviewContainer></ReviewContainer>
+            
         </div>
     );
 }

@@ -34,3 +34,19 @@ const category =[
 ]
 
 export default category;
+
+
+
+// {
+//     detailProduct.images.map((item, index) => (
+//         <div class="w-1/2 p-2 sm:w-1/4">
+//         <div
+//             class="block border border-blue-300 dark:border-transparent dark:hover:border-blue-300 hover:border-blue-300">
+//             <img src="https://i.postimg.cc/PqYpFTfy/pexels-melvin-buezo-2529148.jpg" alt=""
+//                 class="object-cover w-full lg:h-20"/>
+//         </div> 
+//     </div> 
+//     ))
+//   }
+
+  
